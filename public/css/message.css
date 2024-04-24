@@ -1,0 +1,9 @@
+.message-container {
+    background-color: var(--br-message-color);
+    border: var(--br-message-border-color);
+    border-radius: 0.438rem;
+    color: var(--text-message-color);
+    margin: 1.875rem auto;
+    padding: 0.625rem;
+    max-width: 25rem;
+}

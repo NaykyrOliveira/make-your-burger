@@ -1,0 +1,160 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "Brioche"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Austráliano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Costela"
+      },
+      {
+        "id": 5,
+        "tipo": "Smash"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 4,
+        "tipo": "Bacon crispy"
+      },
+      {
+        "id": 5,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 6,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 7,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 8,
+        "tipo": "Cebola crispy"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "6990",
+      "nome": "José",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "8126",
+      "nome": "Paulo",
+      "carne": "Picanha",
+      "pao": "Brioche",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "8408",
+      "nome": "Pedro",
+      "carne": "Maminha",
+      "pao": "Brioche",
+      "opcionais": [
+        "Bacon crispy",
+        "Tomate"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "6321",
+      "nome": "Geraldo",
+      "carne": "Maminha",
+      "pao": "Brioche",
+      "opcionais": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "c8ca",
+      "nome": "Joaquim",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cebola crispy",
+        "Bacon crispy",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "aa14",
+      "nome": "Pedro",
+      "carne": "Alcatra",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola crispy"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}

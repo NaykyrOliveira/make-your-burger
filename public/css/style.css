@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+@supports (font-variation-settings: "wght" 400) {
+  * {
+    font-family: 'Inter';
+    font-weight: 400;
+  }
+}
+:root {
+  --background-color: #1d1d1d;
+  --primary-color: #fe9738;
+  --primary-color-hover: #fcba03;
+  --text-color: #ffffff;
+  --sub-text-color: #565656;
+  --delete-button-color: #9c0000;
+  --table-header-border: 0.188rem solid #444444;
+  --table-body-border: 0.063rem solid #474646;
+  --delete-button-text-color: #f9f9f9;
+  --delete-button-border: 0.125rem solid #9c0000;
+  --delete-button-hover-color: #9118189f;
+  --text-shadow: 0.1rem 0.2rem 0.1rem #8f4b14;
+  --br-message-color: #cce5ff;
+  --br-message-border-color: 0.125rem solid #b8daff;
+  --text-message-color: #004085;
+}
+
+html,
+body,
+#app {
+  background-color: var(--background-color);
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  margin: 3.125rem;
+  min-height: 28.563rem;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 2.625rem;
+  margin-bottom: 1.875;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--text-color);
+  box-shadow: var(--text-shadow) initial;
+  border-radius: 1rem;
+  margin: 0.1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 1rem;
+}

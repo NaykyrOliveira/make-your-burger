@@ -1,0 +1,40 @@
+#nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    position: fixed;
+    max-width: 120rem;
+    width: 100%;
+    height: 6.5rem;
+    top: 0;
+}
+
+#nav a {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    transition: 0.1s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#nav #logo-url {
+   margin: auto; 
+   margin-left: 0;
+}
+
+#logo {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.blur-effect {
+    backdrop-filter: blur(1rem);
+}
