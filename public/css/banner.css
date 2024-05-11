@@ -50,22 +50,33 @@
     }
 }
 
-@media screen and (max-width: 584px) { 
+@media screen and (max-width: 520px) { 
     #main-banner {
         flex-direction: column;
     }
-
     .content-banner {
         max-width: 20rem;
+        margin: 2rem;
+    }
+
+    .content-banner h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .content-banner h1::after {
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-left: 0.5rem;
+    }
+
+    #main-banner p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: center;
     }
 
     #main-banner img {
-        width: 50%;
-    }    
-}
-
-@media screen and (max-width: 584px) { 
-    .content-banner h1{
-        font-size: 3rem;
-    }  
+        width: 60%;
+    }
 }

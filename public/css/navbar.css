@@ -38,3 +38,18 @@
 .blur-effect {
     backdrop-filter: blur(1rem);
 }
+
+@media screen and (max-width: 520px) {
+    #nav {
+        height: 4.5rem;
+    }
+
+    #nav a {
+        font-size: 1.25rem;
+    }
+
+    #logo {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}

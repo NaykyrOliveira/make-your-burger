@@ -60,7 +60,7 @@
 
 .status {
   margin-right: 0.75rem;
-  padding: 0.75rem 0.375rem;
+  padding: 0.75rem 0.520rem;
 }
 
 .delete-btn {
@@ -81,9 +81,9 @@
   color:var(--delete-button-text-color);
 }
 
-@media screen and (max-width: 36rem) {
+@media screen and (max-width: 520px) {
   .menu-spacer {
-    height: 0;
+    height: 4rem;
   }
 
   #burger-table th {

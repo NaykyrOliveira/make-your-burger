@@ -3,6 +3,12 @@
     max-width: 25rem;
 }
 
+h2 {
+    color: var(--text-color);
+    font-size: 2.625rem;
+    text-align: center;
+}
+
 .input-container {
     color: var(--text-color);
     display: flex;
@@ -66,7 +72,7 @@ option {
 
 .checkbox-container span {
     font-weight: bold;
-    margin-left: 0.375rem;
+    margin-left: 0.520rem;
 }
 
 .submit-btn {
@@ -86,3 +92,20 @@ option {
 .submit-btn:hover {
     background-color: var(--primary-color-hover);
 } 
+
+@media screen and (max-width: 520px) { 
+    h2 {
+        color: var(--text-color);
+        font-size: 1.625rem;
+        text-align: center;
+    }
+
+    .main-container {
+        margin: 0 2.5rem;
+    }
+
+    #burger-form {
+        margin: 2rem auto;
+    }
+
+}
