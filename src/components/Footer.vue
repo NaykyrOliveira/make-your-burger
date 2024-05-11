@@ -3,20 +3,20 @@
         <hr>
         <div class="footer-container">
             <div class="contact-info">
-                <h2>Contato:</h2>
+                <h3>Contato:</h3>
                 <div>
-                    <img :src="telefone" :alt="phone">
+                    <img class="icon-social-media" :src="telefone" :alt="phone">
                     <p class="phone info-item">+55 (61)9999-0000</p>
                 </div>
                  <div>   
-                    <img :src="instagram" :alt="social">
+                    <img class="icon-social-media" :src="instagram" :alt="social">
                     <p class="social-media info-item">Instagram</p>
                 </div>
             </div>
             <div class="address-info">
-                <h2>Nosso Endereço:</h2>
+                <h3>Nosso Endereço:</h3>
                 <div>
-                    <img :src="localidade" :alt="location">
+                    <img  class="icon-social-media" :src="localidade" :alt="location">
                     <p class="address info-item">Rua 01 Avenida 01</p>
                 </div>
             </div>
